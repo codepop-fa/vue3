@@ -4,7 +4,7 @@
       <router-link to="/">خانه</router-link> |
       <router-link to="/about">درباره ما</router-link>
     </div>
-    <h1>رویدادها و مناسبت ها</h1>
+    <h2>رویدادها و مناسبت ها</h2>
     <router-view />
   </div>
 </template>
