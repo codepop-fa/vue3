@@ -1,17 +1,20 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">خانه</router-link> |
+      <router-link to="/about">درباره ما</router-link>
     </div>
-    <h1>Events For Good</h1>
+    <h1>رویدادها و مناسبت ها</h1>
     <router-view />
   </div>
 </template>
 
 <style>
+
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  direction: rtl;
+  font-family: 'IRANSans' !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -19,10 +22,12 @@
 }
 
 #nav {
+  font-family: 'IRANSans' !important;
   padding: 30px;
 }
 
 #nav a {
+  text-decoration: none;
   font-weight: bold;
   color: #2c3e50;
 }
